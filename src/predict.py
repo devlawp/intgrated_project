@@ -1,7 +1,7 @@
 # src/predict.py
 import pandas as pd
 import joblib
-from src.utils import data_path, model_path, ensure_dirs
+from utils import data_path, model_path, ensure_dirs
 from pathlib import Path
 
 def predict_and_save(input_file=None):

@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, classification_report
 import joblib
-from src.utils import data_path, model_path, results_path, ensure_dirs
+from utils import data_path, model_path, results_path, ensure_dirs
 
 def train_and_save():
     ensure_dirs()
